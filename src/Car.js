@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import './Car.css'
 
 function Car(){
-    const [car,setCar]=useState(["Tata","Kia","Mahindra","Toyota","Suzuki"])
+    const [car,setCar]=useState(["Tata","Kia"])
     const [bin,setBin]=useState([])
     function AddCar(){
         let flag;
