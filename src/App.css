@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../resources/muscle-car-retro-vintage-car-sunset-neon-5k-3840x2160-1229.jpg);
+  background-size: cover;
+}
