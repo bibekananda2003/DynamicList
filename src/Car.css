@@ -136,9 +136,8 @@ li{
     flex-direction: column;
     padding: 3%;
     height: 32vh;
-    gap: 10px;
     width: 220px;
-    background-color: #ffffff7c;
+    background-color: #ffffff63;
     padding-bottom: 10px;
     transition: 0.3s all ease; 
     box-shadow: 5px 5px 15px rgb(88, 88, 88);
@@ -152,13 +151,12 @@ li{
     box-shadow: 5px 5px 20px rgb(88, 88, 88);
     transform: scale(1.02);
 }
-.bin li{
+.bin_list li{
     box-shadow: 2px 2px 5px black;
     display: flex;
     justify-content: space-between; 
     padding: 4px;
     padding-right: 2px;
-    gap: 5px;
     border-radius: 10%;
     transition: 0.2s all ease;
 }
@@ -181,6 +179,9 @@ li{
 
 .bin_list{
 height: 30vh;
+display: flex;
+flex-direction: column;
+gap: 5px;
 }
 
 .bin_btn{
